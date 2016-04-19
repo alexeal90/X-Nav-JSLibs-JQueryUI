@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery-ui.js"></script>
+	<script src="index.js"></script>
+	<link href="index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="cabecera">
+		<p id="ered"><big>e-Red</big>, tu red social.</p>
+	</div>
+	<div id="tabs">
+	  <ul>
+	    <li><a href="#tabs-1">Home</a></li>
+	    <li><a href="#tabs-2">Fotos</a></li>
+			<li><a href="#tabs-3">Conversaciones</a></li>
+			<li><a href="#tabs-4">Configuracion</a></li>
+	  </ul>
+	  <div id="tabs-1">
+			<p>Date: <input type="text" id="datepicker"></p>
+	  </div>
+	  <div id="tabs-4">
+	    <p>
+				<ul id="config">
+				  <li>Datos
+				    <ul>
+				      <li class="ui-state-disabled">Nachin</li>
+				      <li>Nachete</li>
+				    </ul>
+				  </li>
+				  <li>Foto perfil</li>
+				  <li>Privacidad
+				    <ul>
+				      <li>Jor
+				        <ul>
+				          <li>1</li>
+				          <li>2</li>
+				        </ul>
+				      </li>
+				      <li>ge</li>
+				    </ul>
+				  </li>
+				  <button id="logout" style="width:100%"> Desconectar </button>
+				</ul>
+			</p>
+	  </div>
+		<div id="tabs-3">
+ 			<div id="droppable" class="ui-widget-header">
+  			<p>Papelera</p>
+			</div>
+
+			<div class="draggable">
+				<p>Conversacion con Nacho</p>
+			</div>
+
+			<div class="draggable">
+  			<p>Conversacion con Sandra</p>
+			</div>
+
+			<div class="draggable">
+  			<p>Conversacion con Tony</p>
+			</div>
+	  </div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+
+}
+
+body{
+  font: 62.5% "Trebuchet MS", sans-serif;
+  min-height: 100%;
+  margin: 20px;
+  background: -webkit-linear-gradient(lightgrey, #7a7a7a);
+}
+
+.demoHeaders {
+  margin-top: 2em;
+}
+.ui-menu {
+  width: 150px;
+}
+
+.cabecera{
+  position:relative;
+  top: -10px;
+  height: 150px;
+  background: -webkit-linear-gradient(#009bff, lightblue);
+  border-radius: 15px 15px 15px 15px;
+}
+#ered{
+  position:relative;
+  top: 20px;
+  left: 10px;
+  font-size: 500%;
+  color: darkblue;
+  text-shadow: 0.05em 0.05em 0.2em #333;
+}
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: white;
+}
+
+.draggable p{
+  background-color: lightgreen;
+}
+
+#droppable {
+  width: 158px;
+  height: 192px;
+  padding: 0.5em;
+  float: left;
+  margin: 20px;
+  background-color: rgba(180, 180, 180, 0.8);
+}
