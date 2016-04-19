@@ -44,7 +44,12 @@
 				      <li>ge</li>
 				    </ul>
 				  </li>
-				  <button id="logout" style="width:100%"> Desconectar </button>
+				  	<div id="textout" title="Adiós!">
+				    	<p align="center" style="position:relative; top: 20px; font-size: 150%;">
+				      	Te has desconectado con éxito. Vuelve pronto.
+				    	</p>
+				  	</div>
+					<button id="logout" style="width:100%"> Desconectar </button>
 				</ul>
 			</p>
 	  </div>
@@ -53,16 +58,40 @@
   			<p>Papelera</p>
 			</div>
 
-			<div class="draggable">
-				<p>Conversacion con Nacho</p>
+			<div class="draggable" id="draggable1">
+				<p class="Conver">Conversacion con Nacho</p>
+				<hr>
+				<p>Nacho: Como llevas la practica?</p>
+				<p align="right">Yo: Tengo alguna duda...</p>
+				<p>Nacho: Pregunta el proximo dia</p>
+				<p align="right">Yo: si, eso hare</p>
+				<div class="texto1">
+					<input type="text" name="chat"></input>
+					<button> enviar </button>
+				</div>
 			</div>
 
-			<div class="draggable">
-  			<p>Conversacion con Sandra</p>
+			<div class="draggable" id="draggable2">
+  			<p class="Conver">Conversacion con Sandra</p>
+				<hr>
+				<p align="right">Yo: Hola!</p>
+				<p align="right">Yo: que tal?</p>
+				<p>Sandra: Bien, y tu?</p>
+				<div class="texto2">
+					<input type="text" name="chat"></input>
+					<button> enviar </button>
+				</div>
 			</div>
 
-			<div class="draggable">
-  			<p>Conversacion con Tony</p>
+			<div class="draggable" id="draggable3">
+  			<p class="Conver">Conversacion con Tony</p>
+				<hr>
+				<p align="right">Yo: Estas ahi?</p>
+				<div class="texto3" style="position: relative,
+				top: 100px">
+					<input type="text" name="chat"></input>
+					<button> enviar </button>
+				</div>
 			</div>
 	  </div>
 	</div>

@@ -36,17 +36,13 @@ body{
 }
 
 .draggable {
-  width: 100px;
-  height: 100px;
+  width: 170px;
+  height: 200px;
   padding: 0.5em;
   float: left;
-  margin: 10px 10px 10px 0px;
+  margin: 50px 10px 10px 0px;
   border-radius: 15px 15px 15px 15px;
-  background-color: white;
-}
-
-.draggable p{
-  background-color: lightgreen;
+  background: -webkit-linear-gradient(lightgreen, white);
 }
 
 #droppable {
@@ -56,4 +52,14 @@ body{
   float: left;
   margin: 20px;
   background-color: rgba(180, 180, 180, 0.8);
+}
+
+#tabs-3 .draggable .Conver{
+  font-weight: bold;
+  font-size: 120%;
+  height:20px
+}
+
+.draggable * button{
+  float: right;
 }
