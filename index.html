@@ -10,6 +10,9 @@
 	<link href="index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+	<div id="avatar">
+		<img id="fotoPerfil" src="images/avatar.png"></img>
+	</div>
 	<div class="cabecera">
 		<p id="ered"><big>e-Red</big>, tu red social.</p>
 	</div>
@@ -19,6 +22,7 @@
 	    <li><a href="#tabs-2">Fotos</a></li>
 			<li><a href="#tabs-3">Conversaciones</a></li>
 			<li><a href="#tabs-4">Configuracion</a></li>
+			<li><button id="logout"> Desconectar</button></li>
 	  </ul>
 	  <div id="tabs-1">
 			<p>Date: <input type="text" id="datepicker"></p>
@@ -26,22 +30,30 @@
 	  <div id="tabs-4">
 	    <p>
 				<ul id="config">
-				  <li>Datos
-				    <ul>
-				      <li class="ui-state-disabled">Nachin</li>
-				      <li>Nachete</li>
+				  <li>Datos</li>
+				  <li>Foto perfil
+						<ul>
+				      <li>Cambiar</li>
+				      <li>Eliminar</li>
 				    </ul>
-				  </li>
-				  <li>Foto perfil</li>
+					</li>
 				  <li>Privacidad
 				    <ul>
-				      <li>Jor
-				        <ul>
-				          <li>1</li>
-				          <li>2</li>
+							<li>privatizar cuenta</li>
+				      <li>Bloquear contacto</li>
+							<li>Lista bloqueados
+								<ul>
+				          <li class="ui-state-disabled">Juan</li>
+				          <li class="ui-state-disabled">Maria</li>
 				        </ul>
-				      </li>
-				      <li>ge</li>
+							</li>
+				      <li>Cerrar cuenta
+								<ul>
+				          <li class="ui-state-disabled">¿Por cuanto?</li>
+				          <li>Temporalmente</li>
+									<li>Siempre</li>
+				        </ul>
+							</li>
 				    </ul>
 				  </li>
 				  	<div id="textout" title="Adiós!">
@@ -49,7 +61,6 @@
 				      	Te has desconectado con éxito. Vuelve pronto.
 				    	</p>
 				  	</div>
-					<button id="logout" style="width:100%"> Desconectar </button>
 				</ul>
 			</p>
 	  </div>
@@ -57,7 +68,6 @@
  			<div id="droppable" class="ui-widget-header">
   			<p>Papelera</p>
 			</div>
-
 			<div class="draggable" id="draggable1">
 				<p class="Conver">Conversacion con Nacho</p>
 				<hr>
@@ -70,7 +80,6 @@
 					<button> enviar </button>
 				</div>
 			</div>
-
 			<div class="draggable" id="draggable2">
   			<p class="Conver">Conversacion con Sandra</p>
 				<hr>
@@ -82,7 +91,6 @@
 					<button> enviar </button>
 				</div>
 			</div>
-
 			<div class="draggable" id="draggable3">
   			<p class="Conver">Conversacion con Tony</p>
 				<hr>
@@ -94,6 +102,20 @@
 				</div>
 			</div>
 	  </div>
+	</div>
+	<div id="chat" align="right">
+		<p> CONECTADOS: </p>
+		<hr>
+		<p>Ana</p>
+		<p>Estefania</p>
+		<p>Paloma</p>
+		<p>Carlos</p>
+		<p>Nacho</p>
+		<p>Jorge</p>
+		<p>Espe</p>
+		<p>Isra</p>
+		<p>Jenny</p>
+		<p>Elisa</p>
 	</div>
 </body>
 </html>
