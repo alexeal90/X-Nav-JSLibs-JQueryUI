@@ -9,7 +9,31 @@ body{
   font: 62.5% "Trebuchet MS", sans-serif;
   min-height: 100%;
   margin: 20px;
-  background: -webkit-linear-gradient(lightgrey, #7a7a7a);
+  background-image: url("images/fondo_luz.jpg");
+  /*background: -webkit-linear-gradient(lightgrey, #7a7a7a);*/
+}
+
+#avatar{
+  position: absolute;
+  left: 75%;
+  width: 30%;
+}
+
+#fotoPerfil{
+  height: 600%;
+  width: 75%;
+}
+
+#tabs{
+  float:left;
+  position:relative;
+  top: 5px;
+  width: 75%;
+}
+
+#logout{
+  position: relative;
+  left: 800%;
 }
 
 .demoHeaders {
@@ -20,15 +44,28 @@ body{
 }
 
 .cabecera{
-  position:relative;
-  top: -10px;
+  float:left;
+  top: 10px;
   height: 150px;
+  width: 90%;
   background: -webkit-linear-gradient(#009bff, lightblue);
   border-radius: 15px 15px 15px 15px;
 }
+
+#chat{
+  font: 150% "Trebuchet MS", sans-serif;
+  position: absolute;
+  margin-right: 10px;
+  left: 75%;
+  top: 49%;
+  height: 70%;
+  width: 22.5%;
+  background: -webkit-linear-gradient(lightgrey, #7a7a7a);
+}
+
 #ered{
   position:relative;
-  top: 20px;
+  bottom: 5px;
   left: 10px;
   font-size: 500%;
   color: darkblue;
