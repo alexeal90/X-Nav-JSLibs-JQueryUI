@@ -14,18 +14,19 @@
 		<img id="fotoPerfil" src="images/avatar.png"></img>
 	</div>
 	<div class="cabecera">
-		<p id="ered"><big>e-Red</big>, tu red social.</p>
+		<p id="ered"><big>e-Net</big>, tu red social de eventos.</p>
 	</div>
 	<div id="tabs">
 	  <ul>
 	    <li><a href="#tabs-1">Home</a></li>
-	    <li><a href="#tabs-2">Fotos</a></li>
 			<li><a href="#tabs-3">Conversaciones</a></li>
 			<li><a href="#tabs-4">Configuracion</a></li>
 			<li><button id="logout"> Desconectar</button></li>
 	  </ul>
 	  <div id="tabs-1">
-			<p>Date: <input type="text" id="datepicker"></p>
+			<p>Selecciona dia para evento: <input type="text" id="datepicker">
+			<button>Crear</button>
+			</p>
 	  </div>
 	  <div id="tabs-4">
 	    <p>
@@ -56,6 +57,9 @@
 							</li>
 				    </ul>
 				  </li>
+					<li>
+						<button> Agregar persona </button>
+					</li>
 				  	<div id="textout" title="Adiós!">
 				    	<p align="center" style="position:relative; top: 20px; font-size: 150%;">
 				      	Te has desconectado con éxito. Vuelve pronto.
@@ -103,7 +107,7 @@
 			</div>
 	  </div>
 	</div>
-	<div id="chat" align="right">
+	<div id="chat" align="center">
 		<p> CONECTADOS: </p>
 		<hr>
 		<p>Ana</p>
@@ -116,6 +120,52 @@
 		<p>Isra</p>
 		<p>Jenny</p>
 		<p>Elisa</p>
+	</div>
+	<div id="eventos">
+		<div id="accordion">
+		  <h3>Partido de futbol</h3>
+		  <div>
+		    <p>Partido el dia 30, en el polideportivo municipal. VAMOS A GANAR!</p>
+				<hr>
+		    <p> Con: Javi, Santi, Alberto, Raul. </p>
+				<p>
+					<button> editar </button>
+					<button> borrar </button>
+					<button> añadir persona </button>
+				</p>
+		  </div>
+		  <h3>Cumpleaños Maria</h3>
+		  <div>
+		    <p>
+					Cumpleaños el dia 4/8/2016, vamos a armas una buena fiesta sorpresa en
+					casa de Maria. Seguro que no se lo espera. Aportad ideas para el regalo
+					por el chat de grupo. De momento tenemos esto:
+				</p>
+				<ul>
+		      <li>Peluche</li>
+		      <li>Cascos musica</li>
+		      <li>Vestido</li>
+		    </ul>
+				<hr>
+		    <p> Con: Ana, Isra, Raul. </p>
+				<p>
+					<button> editar </button>
+					<button> borrar </button>
+					<button> añadir persona </button>
+				</p>
+		  </div>
+		  <h3>Cita medico</h3>
+		  <div>
+		    <p>Recordatorio de cita el Miercoles que viene. Sala 103, a las 17:15.</p>
+				<hr>
+				<p> Privado <p>
+				<p>
+					<button> editar </button>
+					<button> borrar </button>
+					<button> añadir persona </button>
+				</p>
+		  </div>
+		</div>
 	</div>
 </body>
 </html>

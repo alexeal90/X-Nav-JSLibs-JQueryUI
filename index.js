@@ -2,6 +2,7 @@ $(document).ready(function(){
   $(function() {
   	$("#tabs").tabs();
   	$("#config").menu();
+    $( "#accordion" ).accordion();
   	$("#datepicker").datepicker({
   		inline: true
   	});

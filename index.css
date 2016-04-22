@@ -33,7 +33,7 @@ body{
 
 #logout{
   position: relative;
-  left: 800%;
+  left: 870%;
 }
 
 .demoHeaders {
@@ -54,13 +54,23 @@ body{
 
 #chat{
   font: 150% "Trebuchet MS", sans-serif;
-  position: absolute;
-  margin-right: 10px;
-  left: 75%;
-  top: 49%;
+  position: relative;
+  float:right;
+  margin-right: 14px;
+  top: 100px;
   height: 70%;
-  width: 22.5%;
+  width: 23.15%;
   background: -webkit-linear-gradient(lightgrey, #7a7a7a);
+}
+
+#eventos{
+  float:left;
+  position:relative;
+  top: 10px;
+  width: 75.5%;
+  height: 70%;
+  background: -webkit-linear-gradient(lightgrey, #7a7a7a);
+
 }
 
 #ered{
